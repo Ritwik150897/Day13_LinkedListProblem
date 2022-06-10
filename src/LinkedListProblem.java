@@ -12,6 +12,10 @@ public class LinkedListProblem {
         list.add(2, "70");
 
         list.removeFirst();
+
+        list.add(0, "56");
+
+        list.removeLast();
         
         Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
