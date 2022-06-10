@@ -7,6 +7,8 @@ public class LinkedListProblem {
 
         LinkedList<String> list = new LinkedList<String>();
 
+        list.add("56");
+        list.add("30");
         list.add("70");
 
         Iterator<String> itr=list.iterator();
