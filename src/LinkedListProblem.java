@@ -8,11 +8,12 @@ public class LinkedListProblem {
         LinkedList<String> list = new LinkedList<>();
 
         list.add(0, "56");
-        list.add(1, "70");
+        list.add(1, "30");
+        list.add(2, "70");
 
         Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
-            System.out.println(itr.next());
+            System.out.print(" " + itr.next());
         }
     }
 }
