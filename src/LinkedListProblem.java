@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListProblem {
@@ -5,5 +6,12 @@ public class LinkedListProblem {
         System.out.println("LinkedList Problem");
 
         LinkedList<String> list = new LinkedList<String>();
+
+        list.add("70");
+
+        Iterator<String> itr=list.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
     }
 }
