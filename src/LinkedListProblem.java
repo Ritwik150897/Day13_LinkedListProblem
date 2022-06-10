@@ -13,6 +13,11 @@ public class LinkedListProblem {
 
         list.remove(0);
 
+        list.add(0, "56");
+
+        list.remove(2);
+
+
         Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
             System.out.print(" " + itr.next());
