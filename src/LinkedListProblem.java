@@ -5,14 +5,13 @@ public class LinkedListProblem {
     public static void main(String[] args) {
         System.out.println("LinkedList Problem");
 
-        LinkedList<String> list = new LinkedList<String>();
+        LinkedList<String> list = new LinkedList<>();
 
-        list.add("56");
-        list.add("30");
-        list.add("70");
+        list.add(0, "56");
+        list.add(1, "70");
 
-        Iterator<String> itr=list.iterator();
-        while(itr.hasNext()){
+        Iterator<String> itr = list.iterator();
+        while (itr.hasNext()) {
             System.out.println(itr.next());
         }
     }
