@@ -21,5 +21,14 @@ public class LinkedListProblem {
         while (itr.hasNext()) {
             System.out.print(" " + itr.next());
         }
+
+        String key = "30";
+        System.out.println();
+        for (int i = 0; i < list.size(); i++) {
+            String value = list.get(i);
+            if (value == key) {
+                System.out.println("Value " + key + " found at Node: " + i);
+            }
+        }
     }
 }
