@@ -11,8 +11,8 @@ public class LinkedListProblem {
         list.add(1, "30");
         list.add(2, "70");
 
-        list.remove(0);
-
+        list.removeFirst();
+        
         Iterator<String> itr = list.iterator();
         while (itr.hasNext()) {
             System.out.print(" " + itr.next());
